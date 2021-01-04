@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,input,select,button,textarea
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html,body
+{
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul,li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    width: 1440px;
+    height: 800px;
+
+    background-image: url(images/hero-desktop.jpg);
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+.container .container-text
+{
+    padding-left: 150px;
+    padding-top: 70px;
+
+}
+
+.container .container-text h2
+{
+    margin-top: 130px;
+
+    font-size: 60px;
+    font-weight: 400;
+
+    letter-spacing: 20px;
+    line-height: 70px;
+
+    color: hsl(0, 6%, 24%);
+}
+
+.container .container-text h2 strong
+{
+    font-weight: 300;
+
+    color: hsl(0, 36%, 70%);
+}
+
+.container .container-text p
+{
+    margin-top: 20px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 25px;
+
+    color: hsl(0, 36%, 70%);
+}
+
+.container .container-text form
+{
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+.container .container-text form input
+{
+    width: 400px;
+    height: 55px;
+
+    padding-left: 30px;
+
+    border: 1px solid rgb(226, 182, 182);
+    border-radius: 30px;
+}
+
+::-webkit-input-placeholder 
+{
+    font-size: 16px;
+
+    color: hsl(0, 36%, 70%);
+
+    opacity: 0.6;
+}
+
+.container .container-text form .enviar
+{
+    width: 100px;
+    height: 55px;
+
+    margin-left: -50px;
+
+    background:hsl(0, 80%, 86%);
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bg
+{
+    position: absolute;
+    z-index: -1;
+}
